@@ -47,7 +47,10 @@
     "navigationBarTitleText": "颐家找院",
     "navigationBarBackgroundColor": "#2563EB",
     "backgroundColor": "#F8F9FA"
-  },
+  }
+  // tabBar 配置暂时注释，图标文件缺失时会导致模拟器启动失败
+  // 需要先添加图标文件：static/tab-home.png, tab-home-active.png, tab-tools.png, tab-tools-active.png, tab-profile.png, tab-profile-active.png
+  /*
   "tabBar": {
     "color": "#666666",
     "selectedColor": "#2563EB",
@@ -74,4 +77,5 @@
       }
     ]
   }
+  */
 }
